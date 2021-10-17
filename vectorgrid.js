@@ -1,8 +1,6 @@
 
 window.addEventListener('DOMContentLoaded', (event) => {
 
-    let pomaoimg = new Image()
-    pomaoimg.src = 'rcpomao.png'
 
     const squaretable = {} // this section of code is an optimization for use of the hypotenuse function on Line and LineOP objects
     for(let t = 0;t<10000000;t++){
